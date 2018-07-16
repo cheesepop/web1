@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h1>Loop & Array</h1>
+	<script>
+		var coworkers = ['오나연', '전소희', '장재용', '사무엘','황다영','김혁'];
+	</script>
+	<h2>Co workers</h2>
+	<ul>
+		<script>
+			var i = 0;
+			while(i<coworkers.length){
+			document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</li>');
+			i=i+1;
+		}
+		</script>
+	</ul>
+
+</body>
+</html>
